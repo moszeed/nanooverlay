@@ -1,0 +1,30 @@
+{
+  "name": "nanooverlay",
+  "version": "0.1.0",
+  "description": "a overlay nanocomponent",
+  "main": "./index.js",
+  "scripts": {
+    "test": "browserify -t [ sheetify ] -t [ babelify --presets [ env ] ] ./tests/tests.js | tape-run"
+  },
+  "keywords": [
+    "overlay",
+    "component",
+    "nanocomponent",
+    "choo",
+    "standalone",
+    "javascript"
+  ],
+  "devDependencies": {
+    "tape": "latest",
+    "tape-run": "latest",
+    "browserify": "latest",
+    "babelify": "latest",
+    "babel-core": "latest",
+    "babel-preset-env": "latest",
+    "nanohtml": "^1.2.4",
+    "nanocomponent": "^6.5.2",
+    "sheetify": "^7.3.2"
+  },
+  "author": "Michael Röber",
+  "license": "MIT"
+}
